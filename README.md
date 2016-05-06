@@ -1,0 +1,2 @@
+# ClearEditText
+该自定义View是一个带有删除按钮的EditText
