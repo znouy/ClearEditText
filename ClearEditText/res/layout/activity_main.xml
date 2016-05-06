@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.example.clearedittext.ClearEditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/inputbox"
+        android:drawableLeft="@drawable/search"
+        android:drawableRight="@drawable/search_clear"
+        android:hint="请输入要搜索的关键字"
+        android:singleLine="true" />
+
+   
+
+</RelativeLayout>
